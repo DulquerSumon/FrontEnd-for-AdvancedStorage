@@ -1,15 +1,29 @@
 .container {
   padding: 0 2rem;
 }
-
+.parent {
+  text-align: center;
+}
+.child {
+  display: inline-block;
+}
+.down {
+  display: flex;
+}
+.parentDown {
+  text-align: center;
+}
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  width: 100%;
+  border: 3px;
+  padding: 10px;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: blue;
+  font-weight: bold;
 }
 
 .footer {
@@ -19,6 +33,11 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: black;
 }
 
 .footer a {
